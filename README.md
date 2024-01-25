@@ -1,40 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Juhoflix
 
-## Getting Started
+This web page is OTT video service web page like Netflix. We developed the web page using next.js, React, and TypeScript, and saved the user's user information and data such as the genre of the video, id, duration, etc. in JSON format using Prisma and Mongo db.
 
-First, run the development server:
+Because of the OAuth function, users can log in with Google or Github accounts and log in by signing up for membership.
+Appropriate codes were used in mobile environments. Users can also save their favorite videos on their favorite cards.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<img width="955" alt="profile" src="https://github.com/dlwngh1367/Juhoflix/assets/107776511/57d67980-19d7-4a74-892a-85597ba13a5b">
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<img width="1503" alt="login" src="https://github.com/dlwngh1367/Juhoflix/assets/107776511/12b2bc60-2eb4-4e43-824d-c46b04e41139">
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<img width="1493" alt="videos" src="https://github.com/dlwngh1367/Juhoflix/assets/107776511/a5b8f8fa-c611-4db8-81f9-a2eb156f16c0">
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+<img width="1476" alt="main-screen" src="https://github.com/dlwngh1367/Juhoflix/assets/107776511/85e45a32-54fe-43e9-86ed-11a9461951d7">
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
