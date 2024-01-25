@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "webkit",
+            "request": "launch",
+            "name": "Launch Safari against localhost",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "port": 9222,
+            "runtimeExecutable": "/Applications/Safari.app/Contents/MacOS/Safari",
+            "runtimeArgs": ["-p"],
+            "stopOnEntry": false,
+            "sourceMapPathOverrides": {
+                "webpack:///./src/*": "${webRoot}/src/*"
+            }
+        }
+    ]
+}
